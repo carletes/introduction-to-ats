@@ -1,3 +1,6 @@
-/chapter-01/bindings
 /chapter-01/hello
+/chapter-02/bindings
+/chapter-02/records
+/chapter-02/sequence-expr
+/chapter-02/tuples
 *_dats.c

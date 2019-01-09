@@ -1,7 +1,4 @@
-all: bindings hello
-
-bindings: bindings.dats
-	patscc -o $@ $<
+all: hello
 
 hello: hello.dats
 	patscc -o $@ $<
@@ -9,5 +6,5 @@ hello: hello.dats
 .PHONY = clean
 
 clean:
-	rm -f bindings hello
+	rm -f hello
 	rm -f *_dats.c
